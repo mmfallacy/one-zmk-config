@@ -1,48 +1,5 @@
 layers:
-  default:
-  - {t: ']', h: Gui}
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '['
-  - {t: '`', h: Ctrl}
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: raise}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
-  Def:
+  DEFAULT_LAYER:
   - ']'
   - Q
   - W
@@ -79,14 +36,14 @@ layers:
   - .
   - /
   - \
-  - ↹
+  - {t: ↹, h: raise}
   - ␣
-  - ⏎
-  - Esc
+  - {t: ENTER, h: lower}
+  - {t: ESCAPE, h: lower}
   - ⌫
-  - ⌦
+  - {t: DELETE, h: raise}
   lower:
-  - {t: F1, h: Gui}
+  - F1
   - F2
   - F3
   - F4
@@ -98,19 +55,19 @@ layers:
   - F10
   - F11
   - F12
-  - {t: +, h: Ctrl}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
+  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - '='
   - '1'
   - '2'
   - '3'
@@ -121,7 +78,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Alt
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -141,7 +98,7 @@ layers:
   - Page Up
   - SLCK
   - CLCK
-  - {t: '=', h: Ctrl}
+  - {t: '=', h: toggle}
   - KP MULTIPLY
   - KP 4
   - KP 5
@@ -152,7 +109,7 @@ layers:
   - ↑
   - →
   - Insert
-  - {t: APP, h: Ctrl}
+  - {t: APP, h: toggle}
   - Alt
   - KP 0
   - KP 1
