@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - '['
-  - '['
+  - '`'
   - {t: A, h: LEFT GUI}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
@@ -98,7 +98,7 @@ layers:
   - Page Up
   - SLCK
   - CLCK
-  - {t: '=', h: toggle}
+  - '='
   - KP MULTIPLY
   - KP 4
   - KP 5
@@ -109,7 +109,7 @@ layers:
   - ↑
   - →
   - Insert
-  - {t: APP, h: toggle}
+  - APP
   - Alt
   - KP 0
   - KP 1
